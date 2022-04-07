@@ -1,0 +1,8 @@
+- composer create-project laravel/laravel panel-prioridad
+- cd panel-prioridad
+- composer require laravel/jetstream
+- php artisan jetstream:install livewire --teams
+- npm install
+- npm run dev
+- php artisan vendor:publish --tag=jetstream-views
+- php artisan migrate

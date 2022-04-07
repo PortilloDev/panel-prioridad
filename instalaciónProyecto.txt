@@ -1,4 +1,8 @@
-- composer create-project laravel/laravel panel-prioridad
+Comandos usados para la creación del proyecto e instalación de librerías usadas
+
+Comandos iniciales: 
+
+- composer create-project laravel/laravel panel-prioridad (versión 9.2)
 - cd panel-prioridad
 - composer require laravel/jetstream
 - php artisan jetstream:install livewire --teams
@@ -6,3 +10,6 @@
 - npm run dev
 - php artisan vendor:publish --tag=jetstream-views
 - php artisan migrate
+
+Paquetes posteriores:
+
